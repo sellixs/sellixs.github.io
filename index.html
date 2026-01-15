@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manicure & Pedicure Professionali</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#F5E6E8] text-[#2F2F2F]">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1><strong>Manicure & Pedicure Professionali</strong></h1>
+    <p>Cura, eleganza e attenzione ai dettagli</p><br>
+    <a href="#contatti" class="btn-primary"><strong>Prenota ora</strong></a>
+  </div>
+</section>
+
+<!-- SERVIZI -->
+<section class="section" id="servizi">
+  <h2><strong>I Servizi</strong></h2>
+
+  <div class="grid-services">
+    <div class="card">
+      <h3>Manicure Classica</h3>
+      <p>Pulizia, forma e trattamento completo.</p>
+    </div>
+
+    <div class="card">
+      <h3>Semipermanente</h3>
+      <p>Colore duraturo e brillante.</p>
+    </div>
+
+    <div class="card">
+      <h3>Pedicure Estetico</h3>
+      <p>Benessere e bellezza dei piedi.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CHI SONO -->
+<section class="section bg-white">
+  <h2>Perché scegliere me</h2>
+  <p class="text-center max-w-xl mx-auto">
+    Passione, precisione e igiene sono al centro del mio lavoro.
+    Utilizzo solo prodotti professionali e seguo una cura attenta per ogni cliente.
+  </p>
+</section>
+
+<!-- GALLERIA -->
+<section class="section">
+  <h2>I miei lavori</h2>
+
+  <!-- CAROUSEL -->
+  <div class="carousel-container">
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="carousel-slide"><img src="img/1.jpg" alt="Nail art"></div>
+        <div class="carousel-slide"><img src="img/3.jpg" alt="Nail art"></div>
+        <div class="carousel-slide"><img src="img/4.jpg" alt="Nail art"></div>
+        <div class="carousel-slide"><img src="img/5.jpg" alt="Nail art"></div>
+      </div>
+    </div>
+    
+    <button class="carousel-button carousel-prev" id="prevBtn">❮</button>
+    <button class="carousel-button carousel-next" id="nextBtn">❯</button>
+    
+    <div class="carousel-dots" id="dotsContainer"></div>
+  </div>
+</section>
+
+<!-- CONTATTI -->
+<section class="section bg-white" id="contatti">
+  <h2>Contatti</h2>
+
+  <div class="text-center">
+    <p>📞 391 461 8353</p>
+    <a href="https://wa.me/393914618353" class="btn-primary btn-whatsapp mt-4 inline-block">
+      <span class="whatsapp-icon">💬</span> Scrivimi su WhatsApp
+    </a>
+  </div>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
