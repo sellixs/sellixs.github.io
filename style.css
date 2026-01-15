@@ -14,7 +14,7 @@ h1, h2, h3 {
 .hero {
   position: relative;
   height: 100vh;
-  background: url("img/sfondo.jpg") center/cover no-repeat;
+  background: url("sfondo.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,3 +253,4 @@ a.btn-primary:active {
   font-size: 1.2rem;
   margin-right: 0.5rem;
 }
+
